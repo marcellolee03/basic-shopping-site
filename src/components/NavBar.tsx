@@ -12,7 +12,7 @@ export function NavBar() {
             <button className="cursor-pointer transition hover:bg-gray-100 rounded-xl py-2 px-3">Switches</button>
             <button className="cursor-pointer transition hover:bg-gray-100 rounded-xl py-2 px-3">Keycaps</button>
 
-            <div className=" ml-auto flex gap-3 cursor-pointer">
+            <div className=" ml-auto flex gap-3">
                 
                 <div className="position: relative">
                     <FaShoppingCart 
