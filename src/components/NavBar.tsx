@@ -5,12 +5,12 @@ export function NavBar() {
     const { cartQuantity } = useShoppingCartContext();
 
     return (
-        <div className="flex rounded-xl items-center p-5 bg-white mx-15 my-3 shadow-lg space-x-6">
-            <button className="cursor-pointer transition bg-blue-400 text-white rounded-xl py-2 px-3
-             hover:bg-blue-300 hover:scale-102">Build Your Own</button>
-            <button className="cursor-pointer transition hover:bg-gray-100 rounded-xl py-2 px-3">Gaskets</button>
-            <button className="cursor-pointer transition hover:bg-gray-100 rounded-xl py-2 px-3">Switches</button>
-            <button className="cursor-pointer transition hover:bg-gray-100 rounded-xl py-2 px-3">Keycaps</button>
+        <div className="flex rounded-b-[4vw] items-center py-6 px-20 bg-[#3C3C3C] mx-15 shadow-lg space-x-6">
+            <button className="cursor-pointer transition bg-black text-white rounded-xl py-5 px-13
+             hover:bg-[#101010] hover:scale-102">Build Your Own</button>
+            <button className="cursor-pointer transition hover:bg-[#757575] text-white rounded-xl py-2 px-3">Gaskets</button>
+            <button className="cursor-pointer transition hover:bg-[#757575] text-white rounded-xl py-2 px-3">Switches</button>
+            <button className="cursor-pointer transition hover:bg-[#757575] text-white rounded-xl py-2 px-3">Keycaps</button>
 
             <div className=" ml-auto flex gap-3">
                 
@@ -20,7 +20,7 @@ export function NavBar() {
                     />
                 </div>
                 
-                {cartQuantity}
+                <p className='text-white'>{cartQuantity}</p>
             </div>
         
         </div>
