@@ -1,5 +1,7 @@
 import { NavBar } from "../components/NavBar";
 import Typewriter from 'typewriter-effect';
+import { PATHS } from "../routes/paths";
+import { NavLink } from "react-router"
 
 export function LandingPage() {
 
@@ -34,8 +36,8 @@ export function LandingPage() {
                     <div className='flex gap-8'>
                         <button className="cursor-pointer transition bg-[#3C3C3C] text-white rounded-3xl font-semibold text-2xl py-6 px-20
                         hover:bg-[#757575] hover:scale-102 font-inter">Start Building</button>
-                        <button className="cursor-pointer transition text-white rounded-3xl font-semibold text-2xl py-6 px-20
-                        hover:bg-[#101010] hover:scale-102 font-inter border-gray-300 border">Browse Components</button>
+                        <NavLink to={PATHS.BROWSEPRODUCTS} className="cursor-pointer transition text-white rounded-3xl font-semibold text-2xl py-6 px-20
+                        hover:bg-[#101010] hover:scale-102 font-inter border-gray-300 border">Browse Components</NavLink>
                     </div>
                 </div>
                 

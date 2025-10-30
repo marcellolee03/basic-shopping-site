@@ -5,7 +5,7 @@ export const dummyProducts: Product[] = [
   {
     id: 1,
     name: "Phantom 65 - Alumínio",
-    image: "/images/products/gasket-phantom.jpg",
+    image: "bag.png",
     price: 189.90,
     discountedPrice: 169.90,
     category: "gasket",
@@ -15,7 +15,7 @@ export const dummyProducts: Product[] = [
   {
     id: 2,
     name: "Aura TKL - Policarbonato",
-    image: "/images/products/gasket-aura.jpg",
+    image: "bag.png",
     price: 145.50,
     category: "gasket",
     layout: "75%",
@@ -26,7 +26,7 @@ export const dummyProducts: Product[] = [
   {
     id: 3,
     name: "Silent Glacier (Pack com 70)",
-    image: "/images/products/switch-glacier.jpg",
+    image: "bag.png",
     price: 55.00,
     category: "switch",
     type: "linear",
@@ -36,7 +36,7 @@ export const dummyProducts: Product[] = [
   {
     id: 4,
     name: "Clicky Cobalt (Pack com 70)",
-    image: "/images/products/switch-cobalt.jpg",
+    image: "bag.png",
     price: 42.00,
     category: "switch",
     type: "clicky",
@@ -46,7 +46,7 @@ export const dummyProducts: Product[] = [
   {
     id: 5,
     name: "Tactile Ember (Pack com 90)",
-    image: "/images/products/switch-ember.jpg",
+    image: "bag.png",
     price: 68.00,
     discountedPrice: 59.90,
     category: "switch",
@@ -59,7 +59,7 @@ export const dummyProducts: Product[] = [
   {
     id: 6,
     name: "Keycaps 'Noctua' Set",
-    image: "/images/products/keycap-noctua.jpg",
+    image: "bag.png",
     price: 89.90,
     category: "keycap",
     language: "ANSI (US)",
@@ -68,7 +68,7 @@ export const dummyProducts: Product[] = [
   {
     id: 7,
     name: "Keycaps 'Minimalist White' Set",
-    image: "/images/products/keycap-white.jpg",
+    image: "bag.png",
     price: 75.00,
     category: "keycap",
     language: "ABNT2 (BR)",

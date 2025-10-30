@@ -1,6 +1,6 @@
 export const PATHS = {
-    HOME: "/",
-    KEYCAPS: "/keycaps"
+    LANDINGPAGE: "/",
+    BROWSEPRODUCTS: "/products"
 } as const
 
 export type PathKeys = keyof typeof PATHS

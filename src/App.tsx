@@ -1,10 +1,15 @@
-import { BrowseProductsPage } from "./pages/BrowseProductsPage"
+import { Route, Routes } from "react-router-dom"
+import { routes } from "./routes"
 
 function App() {
 
   return (
     <>
-      <BrowseProductsPage />
+      <Routes>
+        {routes.map((route) => (
+          <Route key={route.path} path={route.path} element={route.element} />
+        ))}
+      </Routes>
     </>
   )
 }

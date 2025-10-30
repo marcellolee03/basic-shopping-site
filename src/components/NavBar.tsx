@@ -1,13 +1,15 @@
 import { useShoppingCartContext } from '../context/ShoppingCartContext'
 import { FaShoppingCart } from 'react-icons/fa'
+import { NavLink } from 'react-router'
+import { PATHS } from "../routes/paths"
 
 export function NavBar() {
     const { cartQuantity } = useShoppingCartContext();
 
     return (
         <div className="flex items-center py-6 px-25 bg-[#3C3C3C] shadow-lg space-x-6">
-            <button className="cursor-pointer transition bg-black text-white rounded-xl py-5 px-13
-             hover:bg-[#101010] hover:scale-102">Build Your Own</button>
+            <NavLink to={PATHS.BROWSEPRODUCTS} className="cursor-pointer transition bg-black text-white rounded-xl py-5 px-13
+             hover:bg-[#101010] hover:scale-102">Build Your Own</NavLink>
             <button className="cursor-pointer transition hover:bg-[#757575] text-white rounded-xl py-2 px-3">Gaskets</button>
             <button className="cursor-pointer transition hover:bg-[#757575] text-white rounded-xl py-2 px-3">Switches</button>
             <button className="cursor-pointer transition hover:bg-[#757575] text-white rounded-xl py-2 px-3">Keycaps</button>
